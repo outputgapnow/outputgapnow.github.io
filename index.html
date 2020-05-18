@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Nowcasting the Output Gap</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+
+<div id="header">
+  Nowcasting the Output Gap
+</div>
+
+<head>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+</head>
+
+<body>
+  <div id="graph"></div>
+  <div id="table"></div>
+  <div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <p>Value: <span id="demo"></span></p>
+  </div>
+  <script src="this.js"></script>
+  <div id="demo"></div>
+  <div>
+    The nowcast of the output gap is based on the method described in
+    <a href="https://ssrn.com/abstract=3586374">Berger, Morley, and Wong (2020)</a>.
+    Please cite the paper when referring to the nowcast estimate.
+    The nowcast for the current quarter in which real GDP has not yet been released is reported
+    in the figure using a dashed line from the actual estimated output gap for previous quarters.
+    The actual estimated output gap is based on parameter estimates using data from 1967-2019
+    for the mixed-frequency Bayesian VAR specified in
+    <a href="https://ssrn.com/abstract=3586374">Berger, Morley, and Wong (2020)</a>
+    and
+    data up to the latest quarter for which real GDP has been released from
+    <a href="https://fred.stlouisfed.org/">FRED</a>.
+    The monthly
+    variables that feed into the nowcast are specified in the table in bold. The remaining monthly
+    variables for the current quarter are based on conditional forecasts from the mixed-frequency
+    model.
+    The forecast for the next quarter is reported in the figure using a dotted line from the nowcast
+    for the current quarter. The slider below the figure determines the nature of a scenario
+    forecast. If it is set to 0, the conditional forecast is reported. If severity factor is set to 1, the
+    values of labor-market variables in bold-italics are set based on the average trajectory x-
+    months after a recession and assuming the COVID-19 recession began in March 2020. An
+    increase in the severity factor worsens the values of labor-market variables x-months after a
+    recession by that factor. All other variables in the table not yet realized or directly set (not in
+    bold or bold-italics) are recalculated based on the conditional expectation from the model and
+    the set values in bold-italics.
+    Please see
+    <a href="https://ssrn.com/abstract=3586374">Berger, Morley, and Wong (2020)</a>
+    for more details and please cite the paper when
+    using the method or the results presented here. A full reference is given below.
+    Note that we are not responsible for any financial decisions made based on the results
+    presented here.
+    Reference:
+    Berger, Tino and Morley, James and Wong, Benjamin, Nowcasting the Output Gap (April
+    27, 2020). Available at SSRN: <a
+      href="https://dx.doi.org/10.2139/ssrn.3586374">https://dx.doi.org/10.2139/ssrn.3586374</a>
+  </div>
+  <div id="footer">
+    <a href="https://sites.google.com/site/drtinoberger/">Tino Berger</a>
+    <a href="https://sites.google.com/site/jamescmorley/">James Morley</a>
+    <a href="https://sites.google.com/site/benjaminwongshijie/">Benjamin Wong</a>
+  </div>
+  <a href="https://twitter.com/intent/tweet?button_hashtag=outputgapnow" class="twitter-hashtag-button"
+    data-show-count="false">Tweet #outputgapnow</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
