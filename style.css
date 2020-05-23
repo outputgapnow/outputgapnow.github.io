@@ -3,7 +3,7 @@ body {
 }
 a{
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
     color: slateblue;
 }
 #header {
@@ -44,7 +44,8 @@ p {
 
 #abstract {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 60%
+    width: 60%;
+    text-align: justify
 }
 
 #abstract_container {
