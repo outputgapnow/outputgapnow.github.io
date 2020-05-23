@@ -1,12 +1,11 @@
 let slider = document.getElementById("myRange");
-let output = document.getElementById("demo");
-// Display the default slider value
-output.innerHTML = slider.value;
+let slideroutput = document.getElementById("slidervalue");
+let outputgap = document.getElementById("outputgap");
 
-// Update the current slider value (each time you drag the slider handle)
-let q2 = slider.value;
+// Display the default slider value
 
 function graph(slider_value) {
+  outputgap.innerHTML = data_q2gap[slider_value]
   let recession_shapes = [];
   for (var i = 0; i < data_recessions.length; i++) {
     recession_shapes.push({
@@ -65,9 +64,30 @@ function graph(slider_value) {
         ay: 0,
         arrowcolor: "#00000000",
       },
+      {
+        x: 2020,
+        y: data_hist_gap.slice(-1)[0],
+        showarrow: true,
+        text: "2020 Q1",
+        arrowhead: 0,
+        ax: 40,
+        ay: 0,
+        arrowcolor: "#00000000",
+      },
     ],
   };
-
+  // if (slider_value=="0"){
+  //   layout.annotations.push({
+  //     x: 2020.25,
+  //     y: -0.35,
+  //     showarrow: true,
+  //     text: "test",
+  //     arrowhead: 1,
+  //     ax: -100,
+  //     ay: -200,
+  //     arrowcolor: "#000000",
+  //   });
+  // }
   Plotly.newPlot("graph", [trace1, trace2], layout);
 }
 
@@ -83,8 +103,9 @@ function generateTableHead(table, data) {
 }
 
 function generateTable(table, data) {
+  let tbody = table.createTBody();
   for (let element of data) {
-    let row = table.insertRow();
+    let row = tbody.insertRow();
     for (key in element) {
       let cell = row.insertCell();
       let text = document.createTextNode(element[key]);
@@ -93,23 +114,33 @@ function generateTable(table, data) {
   }
 }
 
-
-
 function build_table(slider_value) {
-    let table = document.querySelector("table");
-    table.innerHTML = '';
-    let data = Object.keys(table_data[slider_value][0]);
-    generateTableHead(table, data);
-    generateTable(table, table_data[slider_value]);
+  let table = document.querySelector("table");
+  table.innerHTML = "";
+  let data = Object.keys(table_data[slider_value][0]);
+  generateTableHead(table, data);
+  generateTable(table, table_data[slider_value]);
 }
 
 // init
-graph(q2);
-build_table(1);
-
+s_value = slider.value;
+graph(s_value);
+build_table(s_value);
+slideroutput.innerHTML = s_value;
 // update
+function resize_update() {
+  update(slider.value);
+}
+
+function update(value) {
+  thevalue = value;
+  if (parseFloat(value) < 1) {
+    thevalue = "0";
+  }
+  slideroutput.innerHTML = thevalue;
+  graph(thevalue);
+  build_table(thevalue);
+}
 slider.oninput = function () {
-  output.innerHTML = this.value;
-  graph(this.value);
-  build_table(this.value);
+  update(this.value);
 };
