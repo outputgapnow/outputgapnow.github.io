@@ -14,12 +14,24 @@ df1 = pd.read_excel("webpage.xlsx")
 slider_values = [round(x, 1) for x in df1.iloc[0]]
 gaps = [round(x, 3) for x in df1.iloc[34]]
 
-text += "let data_q2gap = {\n" + "\n".join(f"    {x}: {y}," for x, y in zip(slider_values, gaps)) + "\n};\n"
+text += (
+    "let data_q2gap = {\n"
+    + "\n".join(f"    {x}: {y}," for x, y in zip(slider_values, gaps))
+    + "\n};\n"
+)
 
 
 df2 = pd.read_excel("webpage.xlsx", sheet_name="Tabelle2")
 years = df2["Var1_1"].values
-
+# write download csv
+dl = pd.DataFrame(columns=["quarter", "output gap"])
+dl["quarter"] = years
+dl["output gap"] = df2["Var1_2"].values
+dl = dl.append(
+    pd.DataFrame([[2020.25, -28.75881329]], columns=["quarter", "output gap"]),
+    ignore_index=True,
+)
+dl.to_csv("outputgap.csv")
 text += "let data_years = [\n" + "\n".join(f"    {year}," for year in years) + "\n];\n"
 gaps = [round(val / 100, 5) for val in df2["Var1_2"].values]
 text += "let data_hist_gap = [\n" + "\n".join(f"    {gap}," for gap in gaps) + "\n];\n"
@@ -37,7 +49,7 @@ indicators = [
     "Unemployment rate (%)",
     "Monthly CPI Inflation (%)",
     "IP growth (%)",
-    "Housing starts (`000)",
+    "Housing starts (%)",
 ]
 
 # let mountains = [
@@ -65,10 +77,13 @@ for m, col in enumerate(list(df1)):
     for n, indicator in enumerate(indicators):
         t = f"Indicator: '{indicator}', April: {myround(april[n])}, May: {myround(may[n])}, June: {myround(june[n])}"
         text += f"    {{{t}}},\n"
-    text+="];\n"
+    text += "];\n"
 
 text += "let table_data = {\n"
-text += ",\n".join(f"    {slider_value}: table{str(slider_value).replace('.','')}" for slider_value in slider_values)
+text += ",\n".join(
+    f"    {slider_value}: table{str(slider_value).replace('.','')}"
+    for slider_value in slider_values
+)
 text += "\n};\n"
 
 

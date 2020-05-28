@@ -5,7 +5,7 @@ let outputgap = document.getElementById("outputgap");
 // Display the default slider value
 
 function graph(slider_value) {
-  outputgap.innerHTML = data_q2gap[slider_value]
+  outputgap.innerHTML = Math.round(data_q2gap[slider_value]*10)/10
   let recession_shapes = [];
   for (var i = 0; i < data_recessions.length; i++) {
     recession_shapes.push({
@@ -47,11 +47,13 @@ function graph(slider_value) {
     },
     yaxis: {
       showgrid: false,
-      range: [-0.35, 0.05],
+      range: [-0.40, 0.05],
       tickformat: "%",
       fixedrange: true,
     },
-    margin: { l: 100, r: 20, t: 20, b: 20 },
+    margin: { l: 100, r: 20, t: 10, b: 20 },
+    autosize: true,
+    height: 500,
     showlegend: false,
     annotations: [
       {

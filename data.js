@@ -500,7 +500,7 @@ let table00 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 21.084, June: 25.387},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.659, June: -1.047},
     {Indicator: 'IP growth (%)', April: -11.295, May: -14.841, June: -14.554},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 63.848, June: 87.187},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 63.848, June: 87.187},
 ];
 let table10 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -513,7 +513,7 @@ let table10 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 5.96},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.043, June: -0.037},
     {Indicator: 'IP growth (%)', April: -11.295, May: -0.796, June: -0.693},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: -0.687, June: -0.809},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: -0.687, June: -0.809},
 ];
 let table11 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -526,7 +526,7 @@ let table11 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 6.206},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.058, June: -0.05},
     {Indicator: 'IP growth (%)', April: -11.295, May: -0.929, June: -0.807},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: -0.462, June: -0.544},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: -0.462, June: -0.544},
 ];
 let table12 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -539,7 +539,7 @@ let table12 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 6.452},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.072, June: -0.063},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.061, June: -0.922},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: -0.237, June: -0.279},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: -0.237, June: -0.279},
 ];
 let table13 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -552,7 +552,7 @@ let table13 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 6.698},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.087, June: -0.075},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.193, June: -1.037},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: -0.012, June: -0.014},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: -0.012, June: -0.014},
 ];
 let table14 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -565,7 +565,7 @@ let table14 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 6.944},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.101, June: -0.088},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.325, June: -1.152},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 0.213, June: 0.25},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 0.213, June: 0.25},
 ];
 let table15 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -578,7 +578,7 @@ let table15 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 7.19},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.116, June: -0.101},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.457, June: -1.267},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 0.438, June: 0.515},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 0.438, June: 0.515},
 ];
 let table16 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -591,7 +591,7 @@ let table16 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 7.436},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.13, June: -0.113},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.589, June: -1.382},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 0.663, June: 0.78},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 0.663, June: 0.78},
 ];
 let table17 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -604,7 +604,7 @@ let table17 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 7.682},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.145, June: -0.126},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.721, June: -1.497},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 0.888, June: 1.045},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 0.888, June: 1.045},
 ];
 let table18 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -617,7 +617,7 @@ let table18 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 7.928},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.159, June: -0.139},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.853, June: -1.612},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 1.113, June: 1.309},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 1.113, June: 1.309},
 ];
 let table19 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -630,7 +630,7 @@ let table19 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 8.174},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.174, June: -0.151},
     {Indicator: 'IP growth (%)', April: -11.295, May: -1.985, June: -1.727},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 1.338, June: 1.574},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 1.338, June: 1.574},
 ];
 let table20 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -643,7 +643,7 @@ let table20 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 8.42},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.188, June: -0.164},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.118, June: -1.841},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 1.563, June: 1.839},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 1.563, June: 1.839},
 ];
 let table21 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -656,7 +656,7 @@ let table21 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 8.666},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.203, June: -0.176},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.25, June: -1.956},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 1.788, June: 2.104},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 1.788, June: 2.104},
 ];
 let table22 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -669,7 +669,7 @@ let table22 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 8.912},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.217, June: -0.189},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.382, June: -2.071},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 2.013, June: 2.368},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 2.013, June: 2.368},
 ];
 let table23 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -682,7 +682,7 @@ let table23 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 9.158},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.232, June: -0.202},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.514, June: -2.186},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 2.238, June: 2.633},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 2.238, June: 2.633},
 ];
 let table24 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -695,7 +695,7 @@ let table24 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 9.404},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.246, June: -0.214},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.646, June: -2.301},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 2.463, June: 2.898},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 2.463, June: 2.898},
 ];
 let table25 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -708,7 +708,7 @@ let table25 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 9.65},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.261, June: -0.227},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.778, June: -2.416},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 2.688, June: 3.163},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 2.688, June: 3.163},
 ];
 let table26 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -721,7 +721,7 @@ let table26 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 9.896},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.275, June: -0.24},
     {Indicator: 'IP growth (%)', April: -11.295, May: -2.91, June: -2.531},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 2.913, June: 3.428},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 2.913, June: 3.428},
 ];
 let table27 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -734,7 +734,7 @@ let table27 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 10.142},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.29, June: -0.252},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.042, June: -2.646},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 3.138, June: 3.692},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 3.138, June: 3.692},
 ];
 let table28 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -747,7 +747,7 @@ let table28 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 10.388},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.305, June: -0.265},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.175, June: -2.76},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 3.363, June: 3.957},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 3.363, June: 3.957},
 ];
 let table29 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -760,7 +760,7 @@ let table29 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 10.634},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.319, June: -0.277},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.307, June: -2.875},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 3.589, June: 4.222},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 3.589, June: 4.222},
 ];
 let table30 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -773,7 +773,7 @@ let table30 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 10.88},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.334, June: -0.29},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.439, June: -2.99},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 3.814, June: 4.487},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 3.814, June: 4.487},
 ];
 let table31 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -786,7 +786,7 @@ let table31 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 11.126},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.348, June: -0.303},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.571, June: -3.105},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 4.039, June: 4.751},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 4.039, June: 4.751},
 ];
 let table32 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -799,7 +799,7 @@ let table32 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 11.372},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.363, June: -0.315},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.703, June: -3.22},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 4.264, June: 5.016},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 4.264, June: 5.016},
 ];
 let table33 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -812,7 +812,7 @@ let table33 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 11.618},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.377, June: -0.328},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.835, June: -3.335},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 4.489, June: 5.281},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 4.489, June: 5.281},
 ];
 let table34 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -825,7 +825,7 @@ let table34 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 11.864},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.392, June: -0.341},
     {Indicator: 'IP growth (%)', April: -11.295, May: -3.967, June: -3.45},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 4.714, June: 5.546},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 4.714, June: 5.546},
 ];
 let table35 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -838,7 +838,7 @@ let table35 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 12.11},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.406, June: -0.353},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.099, June: -3.565},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 4.939, June: 5.81},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 4.939, June: 5.81},
 ];
 let table36 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -851,7 +851,7 @@ let table36 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 12.356},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.421, June: -0.366},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.231, June: -3.68},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 5.164, June: 6.075},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 5.164, June: 6.075},
 ];
 let table37 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -864,7 +864,7 @@ let table37 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 12.602},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.435, June: -0.378},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.364, June: -3.794},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 5.389, June: 6.34},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 5.389, June: 6.34},
 ];
 let table38 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -877,7 +877,7 @@ let table38 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 12.848},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.45, June: -0.391},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.496, June: -3.909},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 5.614, June: 6.605},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 5.614, June: 6.605},
 ];
 let table39 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -890,7 +890,7 @@ let table39 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 13.094},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.464, June: -0.404},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.628, June: -4.024},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 5.839, June: 6.869},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 5.839, June: 6.869},
 ];
 let table40 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -903,7 +903,7 @@ let table40 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 13.34},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.479, June: -0.416},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.76, June: -4.139},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 6.064, June: 7.134},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 6.064, June: 7.134},
 ];
 let table41 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -916,7 +916,7 @@ let table41 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 13.586},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.493, June: -0.429},
     {Indicator: 'IP growth (%)', April: -11.295, May: -4.892, June: -4.254},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 6.289, June: 7.399},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 6.289, June: 7.399},
 ];
 let table42 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -929,7 +929,7 @@ let table42 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 13.832},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.508, June: -0.442},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.024, June: -4.369},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 6.514, June: 7.664},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 6.514, June: 7.664},
 ];
 let table43 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -942,7 +942,7 @@ let table43 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 14.078},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.522, June: -0.454},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.156, June: -4.484},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 6.739, June: 7.928},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 6.739, June: 7.928},
 ];
 let table44 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -955,7 +955,7 @@ let table44 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 14.324},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.537, June: -0.467},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.288, June: -4.599},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 6.964, June: 8.193},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 6.964, June: 8.193},
 ];
 let table45 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -968,7 +968,7 @@ let table45 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 14.57},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.551, June: -0.479},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.421, June: -4.714},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 7.189, June: 8.458},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 7.189, June: 8.458},
 ];
 let table46 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -981,7 +981,7 @@ let table46 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 14.816},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.566, June: -0.492},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.553, June: -4.828},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 7.414, June: 8.723},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 7.414, June: 8.723},
 ];
 let table47 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -994,7 +994,7 @@ let table47 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 15.062},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.58, June: -0.505},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.685, June: -4.943},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 7.639, June: 8.987},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 7.639, June: 8.987},
 ];
 let table48 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1007,7 +1007,7 @@ let table48 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 15.308},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.595, June: -0.517},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.817, June: -5.058},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 7.864, June: 9.252},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 7.864, June: 9.252},
 ];
 let table49 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1020,7 +1020,7 @@ let table49 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 15.554},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.61, June: -0.53},
     {Indicator: 'IP growth (%)', April: -11.295, May: -5.949, June: -5.173},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 8.089, June: 9.517},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 8.089, June: 9.517},
 ];
 let table50 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1033,7 +1033,7 @@ let table50 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 15.8},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.624, June: -0.543},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.081, June: -5.288},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 8.314, June: 9.782},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 8.314, June: 9.782},
 ];
 let table51 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1046,7 +1046,7 @@ let table51 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 16.046},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.639, June: -0.555},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.213, June: -5.403},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 8.54, June: 10.047},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 8.54, June: 10.047},
 ];
 let table52 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1059,7 +1059,7 @@ let table52 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 16.292},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.653, June: -0.568},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.345, June: -5.518},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 8.765, June: 10.311},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 8.765, June: 10.311},
 ];
 let table53 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1072,7 +1072,7 @@ let table53 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 16.538},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.668, June: -0.581},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.477, June: -5.633},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 8.99, June: 10.576},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 8.99, June: 10.576},
 ];
 let table54 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1085,7 +1085,7 @@ let table54 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 16.784},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.682, June: -0.593},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.61, June: -5.747},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 9.215, June: 10.841},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 9.215, June: 10.841},
 ];
 let table55 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1098,7 +1098,7 @@ let table55 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 17.03},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.697, June: -0.606},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.742, June: -5.862},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 9.44, June: 11.106},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 9.44, June: 11.106},
 ];
 let table56 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1111,7 +1111,7 @@ let table56 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 17.276},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.711, June: -0.618},
     {Indicator: 'IP growth (%)', April: -11.295, May: -6.874, June: -5.977},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 9.665, June: 11.37},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 9.665, June: 11.37},
 ];
 let table57 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1124,7 +1124,7 @@ let table57 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 17.522},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.726, June: -0.631},
     {Indicator: 'IP growth (%)', April: -11.295, May: -7.006, June: -6.092},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 9.89, June: 11.635},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 9.89, June: 11.635},
 ];
 let table58 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1137,7 +1137,7 @@ let table58 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 17.768},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.74, June: -0.644},
     {Indicator: 'IP growth (%)', April: -11.295, May: -7.138, June: -6.207},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 10.115, June: 11.9},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 10.115, June: 11.9},
 ];
 let table59 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1150,7 +1150,7 @@ let table59 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 18.014},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.755, June: -0.656},
     {Indicator: 'IP growth (%)', April: -11.295, May: -7.27, June: -6.322},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 10.34, June: 12.165},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 10.34, June: 12.165},
 ];
 let table60 = [
     {Indicator: 'Federal Funds Rate (%)', April: 0.05, May: 0.05, June: 0.05},
@@ -1163,7 +1163,7 @@ let table60 = [
     {Indicator: 'Unemployment rate (%)', April: 14.7, May: 20.0, June: 18.26},
     {Indicator: 'Monthly CPI Inflation (%)', April: -0.798, May: -0.769, June: -0.669},
     {Indicator: 'IP growth (%)', April: -11.295, May: -7.402, June: -6.437},
-    {Indicator: 'Housing starts (`000)', April: -31.098, May: 10.565, June: 12.429},
+    {Indicator: 'Housing starts (%)', April: -31.098, May: 10.565, June: 12.429},
 ];
 let table_data = {
     0.0: table00,
