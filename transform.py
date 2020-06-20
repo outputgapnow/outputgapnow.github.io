@@ -28,7 +28,7 @@ dl = pd.DataFrame(columns=["quarter", "output gap"])
 dl["quarter"] = years
 dl["output gap"] = df2["Var1_2"].values
 dl = dl.append(
-    pd.DataFrame([[2020.25, -28.75881329]], columns=["quarter", "output gap"]),
+    pd.DataFrame([[2020.25, -14.40282698]], columns=["quarter", "output gap"]),
     ignore_index=True,
 )
 dl.to_csv("outputgap.csv")
