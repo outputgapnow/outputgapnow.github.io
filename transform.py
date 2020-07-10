@@ -28,10 +28,16 @@ dl = pd.DataFrame(columns=["quarter", "output gap"])
 dl["quarter"] = years
 dl["output gap"] = df2["Var1_2"].values
 dl = dl.append(
-    pd.DataFrame([[2020.25, -14.40282698]], columns=["quarter", "output gap"]),
+    pd.DataFrame([[2020.25, -14.24814379]], columns=["quarter", "output gap"]),
     ignore_index=True,
 )
-dl.to_csv("outputgap.csv")
+dl.to_csv("outputgap.csv", sep=";", )
+with open("outputgap.csv", "r") as file:
+    lines = file.readlines()
+lines = [line.replace(".", ",") for line in lines]
+with open("outputgap.csv", "w") as file:
+    file.writelines(lines)
+
 text += "let data_years = [\n" + "\n".join(f"    {year}," for year in years) + "\n];\n"
 gaps = [round(val / 100, 5) for val in df2["Var1_2"].values]
 text += "let data_hist_gap = [\n" + "\n".join(f"    {gap}," for gap in gaps) + "\n];\n"

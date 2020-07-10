@@ -47,7 +47,7 @@ function graph(slider_value) {
     },
     yaxis: {
       showgrid: false,
-      range: [-0.16, 0.05],
+      range: [-0.17, 0.05],
       tickformat: "%",
       fixedrange: true,
     },
