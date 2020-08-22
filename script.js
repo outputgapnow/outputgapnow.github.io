@@ -78,23 +78,11 @@ function graph() {
           },
         ],
     };
-    // if (slider_value=="0"){
-    //   layout.annotations.push({
-    //     x: 2020.25,
-    //     y: -0.35,
-    //     showarrow: true,
-    //     text: "test",
-    //     arrowhead: 1,
-    //     ax: -100,
-    //     ay: -200,
-    //     arrowcolor: "#000000",
-    //   });
-    // }
     Plotly.newPlot("graph", [trace1, trace2], layout);
 }
 
 graph();
 // update
 function resize_update() {
-    update();
+    graph();
 }
