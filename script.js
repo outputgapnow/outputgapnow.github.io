@@ -19,24 +19,23 @@ function graph() {
     };
     let data_years = [];
     let data_hist_gap = [];
-    for (var i = 0; i < data_gap.length; i++) {
+    for (var i = 0; i < data_gap.length-1; i++) {
         data_years.push(data_gap[i][0]);
         data_hist_gap.push(data_gap[i][1] / 100);        
     };
-    console.log(data_hist_gap)
-    console.log(data_years)
     let trace1 = {
         x: data_years,
         y: data_hist_gap,
         type: "scatter",
         hoverinfo: "skip",
     };
-    // let trace2 = {
-    //   x: [data_years.slice(-1)[0], 2020.25],
-    //   y: [data_hist_gap.slice(-1)[0], data_q2gap[slider_value] / 100],
-    //   type: "scatter",
-    //   hoverinfo: "skip",
-    // };
+    let last_tuple = data_gap.slice(-1)[0]
+    let trace2 = {
+      x: [data_years.slice(-1)[0], last_tuple[0]],
+      y: [data_hist_gap.slice(-1)[0], last_tuple[1]/100],
+      type: "scatter",
+      hoverinfo: "skip",
+    };
     let layout = {
         shapes: recession_shapes,
         xaxis: {
@@ -56,28 +55,28 @@ function graph() {
         autosize: true,
         height: 500,
         showlegend: false,
-        // annotations: [
-        //   {
-        //     x: 2020.25,
-        //     y: data_q2gap[slider_value] / 100,
-        //     showarrow: true,
-        //     text: "2020 Q2",
-        //     arrowhead: 0,
-        //     ax: 40,
-        //     ay: 0,
-        //     arrowcolor: "#00000000",
-        //   },
-        //   {
-        //     x: 2020,
-        //     y: data_hist_gap.slice(-1)[0],
-        //     showarrow: true,
-        //     text: "2020 Q1",
-        //     arrowhead: 0,
-        //     ax: 40,
-        //     ay: 0,
-        //     arrowcolor: "#00000000",
-        //   },
-        // ],
+        annotations: [
+          {
+            x: data_years.slice(-1)[0],
+            y: data_hist_gap.slice(-1)[0],
+            showarrow: true,
+            text: "2020 Q2",
+            arrowhead: 0,
+            ax: 40,
+            ay: 0,
+            arrowcolor: "#00000000",
+          },
+          {
+            x: last_tuple[0],
+            y: last_tuple[1]/100,
+            showarrow: true,
+            text: "2020 Q3",
+            arrowhead: 0,
+            ax: 40,
+            ay: 0,
+            arrowcolor: "#00000000",
+          },
+        ],
     };
     // if (slider_value=="0"){
     //   layout.annotations.push({
@@ -91,7 +90,7 @@ function graph() {
     //     arrowcolor: "#000000",
     //   });
     // }
-    Plotly.newPlot("graph", [trace1], layout);
+    Plotly.newPlot("graph", [trace1, trace2], layout);
 }
 
 graph();
